@@ -5,7 +5,6 @@ export default function Navbar() {
     const[expanded , setExpanded]=useState(false);
   return (
     <div className="bg-mainColor text-white  font-bold py-8 px-5 md:px-44  lg:flex items-center justify-between  ">
-        <div className="flex justify-between items-center "></div>
             <Link to={"/Home"} className="text-[35px] font-bold uppercase "> Start Framework </Link>
             <button onClick={()=>{
                 setExpanded(!expanded);
